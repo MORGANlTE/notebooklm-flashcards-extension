@@ -4,12 +4,28 @@ A Chrome Extension for NotebookLM that generates high-quality flashcards from yo
 
 Note: this readme is AI generated 💀
 
+## The more sources, the longer it will load! Be warned.
+
 ## Features
 
 - Adds a "Generate Flashcards" button to NotebookLM.
 - Automatically formats flashcards in `"Front";"Back"` style, one fact per card.
 - Downloads flashcards as a text file ready for Anki import.
 - Ensures clean output with no extra formatting or explanations.
+
+## Screenshots
+
+**This plugin adds a new button:**
+
+![Button](readme/new_btn.png)
+
+**Tracking in chat of progress:**
+
+![Tracking](readme/generate.png)
+
+**Easy to import in Anki or other flashcard apps:**
+
+![Anki](readme/import.png)
 
 ## Installation
 
