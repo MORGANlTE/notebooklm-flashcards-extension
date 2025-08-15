@@ -1,0 +1,32 @@
+/*
+ * @author Morganite
+ */
+
+/* Style for the new flashcard generator button */
+#flashcard-generator-button {
+  width: 40px; /* Make the button narrow, just for the icon */
+  min-width: 40px !important;
+  padding: 0 !important;
+  height: 32px;
+  min-height: 32px !important;
+  background: #131314;
+  color: #ffffff;
+  border: #746e6e 1px solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#flashcard-generator-button:hover {
+  background-color: #2a2b2e;
+}
+
+/* Ensure the icon is centered */
+#flashcard-generator-button .mat-icon {
+  margin: 0;
+}
+
+/* Hide the button's text label if it exists */
+#flashcard-generator-button .mdc-button__label {
+  display: none;
+}
